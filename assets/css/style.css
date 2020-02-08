@@ -10,13 +10,26 @@
 	display: block;
 }
 
-.input {
-	width: 100%;
+input {
+	width: 100% !important;
+}
+
+label {
+	font-weight: bold;
+	font-size: 14px;
 }
 
 h1 {
     color: white !important;
     font-size: 60px !important;
+}
+
+h4 {
+	color: white !important;
+	font-size: 14px !important;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+	margin: 5px;
+	padding: 5px;
 }
 
 .th {
@@ -45,20 +58,29 @@ h1 {
 
 .header {
 	background-color: #003a5d !important;
-	text-align: center;
-	
+	text-align: center;	
 }
 
 .panel-body {
-    border-color: #003a5d !important;
+   border: black !important;
+   border-color: black !important;
+   margin: 0 !important;
+   padding-bottom: 10px;
 }
 
 .panel-heading {
-    background-color: #003a5d !important;
-    
+	background-color: #003a5d !important;
+	width: 100% !important;
+	height: 30px;
 }
 
-.submitInput {
-	background-color: #557a91 !important;
+.border-class {
+	border: thin gray solid;
+	border-top: none;
+	border-left: ;
+    padding: 20px;
 }
+
+
+
 

@@ -61,7 +61,7 @@
                             </div>
                         </div>
 
-                        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                             <div class="panel panel-primary">
                                 <div class="panel-heading">
                                     <h4>Add Train</h4>
@@ -69,34 +69,33 @@
 
                                 <div class="panel-body">
 
-                                    <form>
+                                    <form class="border-class">
+                                        
                                         <div class="form-group">
-                                            <label for="trainName">Train Name</label>
-                                            <input type="text" class="formControl" id="nameInput" placeholder="Enter a Train Name">
+                                            <label for="trainName">Train Name</label> 
+                                            <input type="text" class="formControl" id="nameInput">
                                         </div>
 
                                         <div class="form-group">
                                             <label for="destinForm">Destination</label>
-                                            <input type="text" class="formControl" id="destinInput" placeholder="City, State">
+                                            <input type="text" class="formControl" id="destinInput">
                                         </div>
 
                                         <div class="form-group">
-                                            <label for="firstTrain">First Train Time (HH:mm military time</label>
-                                            <input type="number" class="formControl" id="timeInput" placeholder="eg. 1630" onkeyup="if(this.value > 2400){this.value=''; alert('Enter a valid time between 0000 and 2400');}">
+                                            <label for="firstTrain">First Train Time (HH:mm military time)</label>
+                                            <input type="number" class="formControl" id="timeInput">
                                         </div>
 
                                         <div class="form-group">
                                             <label for="freqForm">Frequency (min)</label>
-                                            <input type="number" class="formControl" id="freqInput" placeholder="eg. 45 minutes">
+                                            <input type="number" class="formControl" id="freqInput">
                                         </div>
-                                    </form>
+                                    
                                     <button class="btn btn-primary submitInput">
                                         Submit
                                     </button>
 
-                                    <button class="btn btn-secondary resetInput">
-                                        Reset
-                                    </button>
+                                    </form> 
 
                                 </div>
 
