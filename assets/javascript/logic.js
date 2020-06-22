@@ -3,7 +3,7 @@ $(document).ready(function() {
     var config = {
 	    apiKey: "AIzaSyA9zP30V4W9Ux7a2nhlWhc7hJzMFXO6Ozo",
 	    authDomain: "train-scheduler-1bb3e.firebaseapp.com",
-	    databaseURL: "hhttps://train-scheduler-1bb3e.firebaseio.com/",
+	    databaseURL: "https://train-scheduler-1bb3e.firebaseio.com/",
   	};
 
 	firebase.initializeApp(config);
